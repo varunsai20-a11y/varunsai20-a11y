@@ -22,8 +22,8 @@ jobs:
       - name: Generate Pacman Game
       - uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: ${{ github.repository_owner }}
-          games: 'pacman'
+          username: ${{ github.repository_owner }}
+          game: 'pacman'
           game_theme: 'github-dark'
 
       - name: Push to Output Branch
