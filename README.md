@@ -31,5 +31,9 @@
 
 <h3 align="left">Contribution Graph:</h3>
 <p align="left">
-<img src="https://raw.githubusercontent.com/varunsai20-a11y/varunsai20-a11y/output/github-contribution-grid-snake-dark.svg" alt="pacman contribution animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/varunsai20-a11y/varunsai20-a11y/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/varunsai20-a11y/varunsai20-a11y/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution animation" src="https://raw.githubusercontent.com/varunsai20-a11y/varunsai20-a11y/output/pacman-contribution-graph.svg" />
+  </picture>
 </p>
