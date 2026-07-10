@@ -1,4 +1,4 @@
-name: Generate Pacman Contribution Graph
+name: Generate Snake Contribution Animation
 
 on:
   schedule:
@@ -19,15 +19,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Pacman Game
-        uses: abozanona/pacman-contribution-graph@main
+      - name: Generate Snake Animation SVG
+        uses: platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#43bb73&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: github-contribution-graph
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
