@@ -6,7 +6,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=varunsai20-a11y" alt="varunsai20-a11y" /></a> </p>
 
-- 🔭 I’m currently working on [dsa solving](https://github.com/varunsai20-a11y/dsa-solving)
+- 🔭 I’m currently working on [dsa solving july](https://github.com/varunsai20-a11y/dsa-solving-july-)
 
 - 👯 I’m looking to collaborate on [github profile](https://github.com/varunsai20-a11y/varunsai20-a11y)
 
